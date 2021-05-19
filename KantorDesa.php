@@ -13,7 +13,7 @@ if(isset($_POST["login"])){
     
     if(password_verify($password, $row["password"])){
       header("Location: Pemberitahuan.php");
-      exit();
+      exit;
     }
   }
   $error=true;

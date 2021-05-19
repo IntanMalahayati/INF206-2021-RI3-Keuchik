@@ -1,5 +1,4 @@
 <?php
-
 require ('functions.php');
 
 if(isset($_POST["login"])){
