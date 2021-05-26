@@ -9,10 +9,6 @@
             Cukup dengan mengisi data diri kamu dan keterangan kegiatan. 
             Kepala desa dapat langsung mengkonfirmasinya.</p>
     </div>
-<<<<<<< HEAD
-=======
-    
->>>>>>> 1908107010034
     <div class="column" style="text-align: center">
         Login Sebagai
         <br><br>
