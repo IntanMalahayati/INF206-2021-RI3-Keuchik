@@ -55,6 +55,71 @@ body {
     border-radius: 30px;
     margin-bottom: 3em;
 }
+
+.jumlahData{
+    font-size: 15pt;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    border-radius: 35px;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    /* text-align: center; */
+}
+
+.jumlahData div:nth-child(1) {
+    color: rgb(49, 49, 49); 
+    text-align: left;
+}
+
+/*.jumlahData div:nth-child(1) span:nth-child(2) {
+    color: rgb(19, 12, 0);
+    background-color: rgb(17, 255, 255);
+    border: 5px solid rgb(17, 255, 255);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}*/
+.jumlahData div:nth-child(2) {
+    text-align: right;
+}
+
+.jumlahData div:nth-child(2) span:nth-child(1) {
+    /* color: rgb(255, 153, 0); */
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 97, 16);
+    border: 7px solid rgb(0, 97, 16);
+    box-sizing: border-box;
+    border-radius: 35px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+/*.jumlahData div:nth-child(2) span:nth-child(2) {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 153, 0);
+    border: 5px solid rgb(255, 153, 0);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.jumlahData div:nth-child(3) {
+    color: rgb(0, 189, 25);
+}
+
+.jumlahData div:nth-child(3) span:nth-child(2) {
+    color: floralwhite;
+    background-color: rgb(0, 253, 42);
+    border: 5px solid rgb(0, 253, 42);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+} */
+
 .pengajuan:first-of-type {
     margin-top: 3em;
 }
