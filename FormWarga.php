@@ -47,10 +47,6 @@
             <h4 class="font-weight-light">Kegiatan Yang Akan Diadakan</h4><br>
         </div>
     </div>
-<<<<<<< HEAD
-=======
-    
->>>>>>> 1908107010034
     <div class="row">
         <div class="col-sm-6 bordered">
             <div class="form-group">
