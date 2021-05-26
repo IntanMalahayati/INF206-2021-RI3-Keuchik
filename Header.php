@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1908107010034
  <html lang="en">
  <head>
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
