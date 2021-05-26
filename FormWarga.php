@@ -59,11 +59,11 @@
             </div>            
             <div class="form-group">
                 <label for="">Hari/Tanggal</label>
-                <input type="text" class="form-control" id="">
+                <input type="date" class="form-control" id="">
             </div>
             <div class="form-group">
                 <label for="">Waktu</label>
-                <input type="text" class="form-control" id="">
+                <input type="time" class="form-control" id="">
             </div>
         </div>
             <div class="col-sm-6 bordered">
