@@ -20,7 +20,6 @@ function registrasi($data) {
 	$password = mysqli_real_escape_string($conn, $data["password"]);
 	$password2 = mysqli_real_escape_string($conn, $data["password2"]);
 
-
 	$result = mysqli_query($conn, "SELECT NIK FROM warga WHERE NIK = '$nik'");
 
 	if( mysqli_fetch_assoc($result) ) {
@@ -44,6 +43,28 @@ function registrasi($data) {
 	return mysqli_affected_rows($conn);
 }
 
+function pengajuan($data){
+	global $conn;
 
+	$nama =  stripcslashes($data["nama"]);
+	$nik = $data["nik"];
+	$usia = stripcslashes($data["usia"]);
+	$alamat = stripcslashes($data["alamat"]);
+	$email = stripcslashes($data["email"]);
+	$nohp = stripcslashes($data["nohp"]);
+	$kegiatan = stripcslashes($data["kegiatan"]);
+	$dlmrangka = stripcslashes($data["dlmrangka"]);
+	$tanggal = $data["tanggal"];
+	$waktu = $data["waktu"];
+	$tempat = stripcslashes($data["tempat"]);
+	$pj = stripcslashes($data["pj"]);
+	$ket = $data["ket"];
 
+	mysqli_query($conn, "INSERT INTO kegiatan VALUES('$nama', '$nik', '$usia', '$alamat',
+													 '$email', '$nohp', '$kegiatan', '$dlmrangka',
+													 '$tanggal', '$waktu', '$tempat',
+													 '$pj', '$ket')");
+
+	return mysqli_affected_rows($conn);
+}
 ?>
