@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-=======
-
->>>>>>> 1908107010034
  <html lang="en">
  <head>
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
@@ -11,7 +7,7 @@
  </head>
  <body>
     <nav class="nav">
-        <a class="navbar-brand logo" href="Home.php">
+        <a class="navbar-brand logo" href="#">
         <img src="img/K.png" width="30" height="30" class="d-inline-block align-top" style="margin-left: 20px;">
         Keuchik</a>
     </nav>
