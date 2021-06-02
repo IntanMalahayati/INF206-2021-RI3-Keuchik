@@ -1,5 +1,5 @@
 <?php include ('Header.php'); ?>
-<title>Selamat! | Keuchik</title>
+<title>Sukses | Keuchik</title>
 
 
 <div class="frame">
@@ -9,7 +9,7 @@
         <p style="text-align: center;">
   <img src="img/ceklis.svg" width="100"><br>
 </p>
-    Permintaan Anda Diterima.
+    Permintaan Telah Diterima.
     </div>
 
     </div>

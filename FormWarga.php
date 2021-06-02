@@ -92,6 +92,7 @@
 <?php
 
 include "koneksi.php";
+$execute = mysqli_query($koneksi, $sql);
 
 if(isset($_POST['proses'])){
     mysqli_query($koneksi, "insert into datawarga set
@@ -109,7 +110,7 @@ if(isset($_POST['proses'])){
     penanggungjawab = '$_POST[penanggungjawab]',
     keterangan = '$_POST[keterangan]'");
 
-    echo "Data telah dikirim!";
+
 }
 
 

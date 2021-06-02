@@ -9,7 +9,7 @@
         <p style="text-align: center;">
   <img src="img/no.png" width="100"><br>
 </p>
-    Permintaan Anda Ditolak.
+    Permintaan Telah Ditolak.
     </div>
 
     </div>

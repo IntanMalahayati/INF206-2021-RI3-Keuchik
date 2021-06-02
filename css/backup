@@ -1,0 +1,35 @@
+.table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.table tr:hover {background-color: #ddd;}
+  
+ .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #37447E;
+    color: white;
+  }
+
+<?php 
+// koneksi 
+include 'koneksi.php';
+$nik = $_GET['nik'];
+mysqli_query($koneksi, "DELETE FROM datawarga WHERE namalengkap=$nik");
+
+?>
+
+<?php
+
+require "koneksi.php";
+
+$namalengkap = $_GET['namalengkap'];
+$sql = "DELETE FROM datawarga WHERE namalengkap='$namalengkap'";
+$execute = mysqli_query($koneksi, $sql);
+
+if($execute){
+    header("Location:halamankantordesa.php");
+}else{
+
+    echo "gagal menolak";
+}
+?>
