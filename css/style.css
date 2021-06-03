@@ -87,9 +87,6 @@ a {
 .form-group {
     margin-right: 30px;
 }
-.table-responsive{
-    margin: 20px;
-}
 @media screen and (max-width:800px) {
     .column{
         flex: 100%;

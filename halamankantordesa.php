@@ -13,19 +13,19 @@ $result= mysqli_query($conn, "SELECT* FROM Kegiatan ");
                 <tr>
                     <th>No</th>
                     <th>Status</th>
-                    <th>Nama Lengkap</th>
-                    <th>nik</th>
-                    <th>usia</th>
-                    <th>alamat</th>
-                    <th>email</th>
-                    <th>nohp</th>
-                    <th>kegiatan</th>
-                    <th>dalamrangka</th>
-                    <th>hari tanggal</th>
-                    <th>waktu</th>
-                    <th>tempat</th>
-                    <th>penanggung jawab</th>
-                    <th>keterangan</th>
+                    <th>Nama</th>
+                    <th>NIK</th>
+                    <th>Usia</th>
+                    <th>Alamat</th>
+                    <th>Email</th>
+                    <th>NoHP</th>
+                    <th>Kegiatan</th>
+                    <th>Dalam Rangka</th>
+                    <th>Tanggal</th>
+                    <th>Waktu</th>
+                    <th>Tempat</th>
+                    <th>Penanggung Jawab</th>
+                    <th>Keterangan</th>
                 </tr>
             </thead>
             <tbody>
