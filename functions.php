@@ -36,7 +36,6 @@ function registrasi($data) {
 		return false;
 	}
 
-	$password = password_hash($password, PASSWORD_DEFAULT);
 
 	mysqli_query($conn, "INSERT INTO warga VALUES('$nik', '$nama', '$nohp', '$password')");
 
