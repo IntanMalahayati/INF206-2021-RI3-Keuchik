@@ -47,7 +47,7 @@ function pengajuan($data){
 	global $conn;
 
 	$nama =  stripcslashes($data["nama"]);
-	$nik = $data["nik"];
+	$nik = stripcslashes($data["nik"]);
 	$usia = stripcslashes($data["usia"]);
 	$alamat = stripcslashes($data["alamat"]);
 	$email = stripcslashes($data["email"]);
@@ -63,7 +63,7 @@ function pengajuan($data){
 	mysqli_query($conn, "INSERT INTO kegiatan VALUES('$nama', '$nik', '$usia', '$alamat',
 													 '$email', '$nohp', '$kegiatan', '$dlmrangka',
 													 '$tanggal', '$waktu', '$tempat',
-													 '$pj', '$ket')");
+													 '$pj', '$ket', '1')");
 
 	return mysqli_affected_rows($conn);
 }

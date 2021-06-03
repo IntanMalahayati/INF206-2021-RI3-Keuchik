@@ -11,7 +11,7 @@ if( isset($_POST["login"]) ) {
   
   if( mysqli_num_rows($result) === 1 ) {
     if($password == $row["pass"]) {
-      header("Location: FormWarga.php");
+      header("Location: HomeWarga.php");
       exit;
     }
     else{

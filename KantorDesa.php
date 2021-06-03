@@ -11,7 +11,7 @@ if( isset($_POST["login"]) ) {
 
   if( mysqli_num_rows($result) === 1 ) {
     if($password == $row["Pass"]) {
-      header("Location: Pemberitahuan.php");
+      header("Location: halamankantordesa.php");
       exit;
     }
     else{
@@ -37,7 +37,7 @@ if( isset($_POST["login"]) ) {
             <h3 class="text-center text-dark">Login</h3>
             
             <?php if( isset($error) ) : ?>
-            <p style="color: red; font-size: 12px;">Nomor Induk Pegawai / Password salah</p>
+            <p style="color: #d63333; font-size: 12px;">Nomor Induk Pegawai / Password salah</p>
             <?php endif; ?>
             
             <div class="form-group">

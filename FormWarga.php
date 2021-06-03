@@ -7,7 +7,7 @@ if(isset($_POST["proses"]) ) {
         echo "<script>
                 alert('Data telah dikirim!');
               </script>";
-        header("Location: wait.php");
+        header("Location: Pemberitahuan.php");
         exit;
     } else {
         echo mysqli_error($conn);
@@ -36,7 +36,7 @@ if(isset($_POST["proses"]) ) {
             </div>
             <div class="form-group">
                 <label for="">NIK</label>
-                <input type="text" class="form-control" id="nik" name="nama">
+                <input type="text" class="form-control" id="nik" name="nik">
             </div>
             <div class="form-group">
                 <label for="">Usia</label>
