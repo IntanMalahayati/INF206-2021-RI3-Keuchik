@@ -4,7 +4,7 @@ project mata kuliah RPL 2021
 Website Keuchik dirancang dengan tujuan untuk memudahkan warga untuk membuat perizinan mengadakan suatu kegiatan.
 
 <h2>Use Case Diagram</h2>
-![Use Case Diagram!](/img-markdown/Use Case Diagram.png "Use Case Diagram")
+![Use Case Diagram!](/img-markdown/UseCaseDiagram.png "Use Case Diagram")
 
 <h2>Activity Diagram</h2>
 
