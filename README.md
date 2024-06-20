@@ -5,6 +5,7 @@ Website Keuchik dirancang dengan tujuan untuk memudahkan warga untuk membuat per
 
 <h2>Use Case Diagram</h2>
 ![Use Case Diagram!](img-markdown/UseCaseDiagram.png "Use Case Diagram")
+<img src="/img-markdown/UseCaseDiagram.png" />
 
 <h2>Activity Diagram</h2>
 
