@@ -1,7 +1,7 @@
 # INF206-2021-RI3-Keuchik (Website Pengajuan Mengadakan Kegiatan)
 project mata kuliah RPL 2021
 
-Website Keuchik dirancang dengan tujuan untuk memudahkan warga untuk membuat perizinan mengadakan suatu kegiatan.
+Website Keuchik dirancang dengan tujuan untuk memudahkan warga untuk membuat perizinan mengadakan suatu kegiatan. Selain itu, juga memudahkan kepala desa (keuchik) untuk memilih dan mengonfirmasi pengajuan tersebut.
 
 <h2>Use Case Diagram</h2>
 <img src="/img-markdown/UseCaseDiagram.png" />
